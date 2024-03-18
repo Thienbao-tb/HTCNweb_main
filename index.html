@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>TRANG CHU</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://samar.dexignzone.com/xhtml/vendor/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <div class="app">
+        <!-- Phần header -->
+        <header class="header">
+
+            <div class="header-container">
+                <ul class="header_list">
+                    <li>
+                        <p>TRANG CHỦ</p>
+                    </li>
+                    <li>
+                        <p>DỊCH VỤ</p>
+                        <ul class="sub_menu">
+                            <div class="list_submenu">
+                                <div class="item_list_submenu">
+                                    <a href="">Cho thuê phòng trọ</a>
+                                </div>
+                                <div class="item_list_submenu">
+                                    <a href="">Nhà cho thuê</a>
+                                </div>
+                                <div class="item_list_submenu">
+                                    <a href="">Cho thuê căn hộ</a>
+                                </div>
+                                <div class="item_list_submenu">
+                                    <a href="">Tìm người ở ghép</a>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>TIN TỨC</p>
+                    </li>
+                    <li>
+                        <p>BẢNG GIÁ DỊCH VỤ</p>
+                    </li>
+                </ul>
+                <div class="btn-collapse btn-collapse-main"><i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class="header_logo">
+                    <a href=""><img src="img/logo (1).png" alt="">
+                    </a>
+                </ul>
+                <ul class="header_right">
+                    <div class="header_order">
+                        <div class="link_hover"> <a href="./dangnhap.html">
+                          Đăng nhập
+                      </a>
+                        </div>
+                        <div class="link_hover"> <a href="./dangki.html">
+                          Đăng ký
+                      </a>
+                        </div>
+                        <div class="item-headphone link_hover">
+                            <a href="#">
+                             Trợ giúp
+                          </a>
+                            <div class="sub-action ">
+                                <div class="top-action-item">
+                                    <h3>Trợ giúp</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="tel:0382187103"><i class="ti-mobile"></i> Hotline</a>
+                                    </li>
+                                    <li><a href=""><i class="ti-comment-alt"></i></i>Live Chat</a>
+                                    </li>
+                                    <li><a href=""><i class="ti-reload"></i></i>Messenger</a>
+                                    </li>
+                                    <li><a href="mailto:thienbao1212003@gmail.com"><i class="ti-email"></i> Email</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <button style="padding: 10px;" class="custom-btn-primary btn_dangtin" type="submit"><a href="">Đăng tin mới</a>
+                            </button>
+                        </div>
+                    </div>
+                </ul>
+                <div class="btn-collapse btn-collapse-user"><i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- Phần lọc yêu cầu khách hàng  -->
+        <div class="nav_info">
+            <div class="item_nav_info">
+                <div class="select_filter">
+                    <select>
+                        <option selected value="1">Dịch vụ</option>
+                        <option value="2">Nhà thuê nguyên căn</option>
+                        <option value="3">Cho thuê căn hộ</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item_nav_info">
+                <div class="select_filter">
+                    <select>
+                        <option selected value="1">Vị trí</option>
+                        <option value="2">Nhà thuê nguyên căn</option>
+                        <option value="3">Cho thuê căn hộ</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item_nav_info">
+                <div class="select_filter">
+                    <select>
+                        <option selected value="1">Chọn giá</option>
+                        <option value="2">Latte</option>
+                        <option value="3">Green Tea</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item_nav_info">
+                <div class="select_filter">
+                    <select>
+                        <option selected value="1">Chọn diện tích</option>
+                        <option value="2">Latte</option>
+                        <option value="3">Green Tea</option>
+                    </select>
+                </div>
+            </div>
+            <div class="item_nav_info">
+                <button class="button-23" role="button">Tìm kiếm</button>
+            </div>
+        </div>
+
+        <!-- Phần mô tả dịch vụ  -->
+        <div class="description">
+            <h3 >Tìm kiếm chỗ thuê ưng ý</h3>
+            <p >Kênh thông tin Phòng trọ số 1 Việt Nam - Website đăng tin cho thuê phòng trọ, nhà nguyên căn, căn hộ, ở ghép nhanh, hiệu quả với 100.000+ tin đăng và 2.500.000 lượt xem mỗi tháng.</p>
+        </div>
+
+        <!-- Phần gợi ý địa điểm thuê trọ -->
+        <div class="main_slide">
+            <h2 class="main_slide_title">
+                Khu vực nổi bật
+            </h2>
+            <div class="main_slide_container">
+                <div class="main_slide_container_scroll">
+                    <a class="location-item city-1" href="/tinh-thanh/ho-chi-minh" title="Phòng trọ Hồ Chí Minh">
+                        <div class="location-bg"></div>
+                        <span class="location-cat">Phòng trọ 
+                            <span class="location-name">Hồ Chí Minh</span>
+                        </span>
+                    </a>
+                    <a class="location-item city-2" href="/tinh-thanh/ha-noi" title="Phòng trọ Hà Nội">
+                        <div class="location-bg"></div>
+                        <span class="location-cat">Phòng trọ 
+                            <span class="location-name">Hà Nội</span>
+                        </span>
+                    </a>
+                    <a class="location-item city-3" href="/tinh-thanh/da-nang" title="Phòng trọ Đà Nẵng">
+                        <div class="location-bg"></div>
+                        <span class="location-cat">Phòng trọ 
+                            <span class="location-name">Đà Nẵng</span>
+                        </span>
+                    </a>
+                </div> 
+                
+            </div>
+        </div>
+
+        <!-- Phần chưa nội dung chính gồm danh sách tin đăng và phần lọc yêu cầu người dùng   -->
+        <div  class="main_container">
+
+            <!-- Danh sách tin đăng -->
+            <div style="flex: 2;">
+                <div class="section_post_listing">
+                    <div class="section-header">
+                        <span class="section-title">Tổng 120.013 kết quả</span>
+                    </div>
+                    <div class="post-sort"><span>Sắp xếp: </span><a class="active" href="">Mặc định</a><a class="" href="">Mới nhất</a><a class="" href="">Có video</a>
+                    </div>
+                    <ul class="post-listing">
+                        <li class="post-item" style="border-color: #E13427;" post-id="612116">
+                            <figure class="post-thumb">
+                                <a class="" href="">
+                                    <img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" alt="Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất" height="100" width="100" layout="responsive" data-loaded="true">
+                                </a>
+                                <span class="images-number">11 ảnh</span>
+                            </figure>
+                            <div class="post-meta">
+                                <h3 class="post-title"><a style="color: #E13427;" href=""><span class="star star-5"></span> Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất </a></h3>
+                                <div class="meta-row flex-meta-row">
+                                    <span class="post-price">4.5 triệu/tháng</span>
+                                    <span class="post-acreage">25m²</span>
+                                    <span class="post-location">
+                                        <a href="" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                    </span>
+                                </div>
+                                <span class="mobile-post-location">
+                                    <a href="https://phongtro123.com/tinh-thanh/ho-chi-minh/quan-10" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                </span>
+                                <time class="post-time" title="Thứ 4, 08:33 14/02/2024">Hôm nay</time>
+                                <div class="meta-row ">
+                                    <p class="post-summary">Cho thuê phòng trọ ngay trung tâm Quận 10, gần ngay Vạn Hạnh Mall, trường đại học Bách Khoa, Huflit (5 phút đi bộ là tới), trường Đại học Y Dược Phạm…</p>
+                                </div>
+                                <div class="meta-row flex-meta-row">
+                                    <div class="post-author">
+                                        <img src="https://phongtro123.com/images/default-user.png">
+                                        <span class="author-name">Việt 275 (*)</span>
+                                    </div>
+                                    
+                                    <a rel="nofollow" target="_blank" href="tel:0938297275" class="btn-quick-call">Gọi 0938297275</a>
+                                    <a rel="nofollow" target="_blank" href="https://zalo.me/0938297275" class="btn-quick-zalo">Nhắn Zalo</a>
+                                </div>
+                                <div class="mobile-post-time">Cập nhật: Hôm nay</div>
+                            </div>
+                        </li>
+                        <li class="post-item" style="border-color: #E13427;" post-id="612116">
+                            <figure class="post-thumb">
+                                <a class="" href="">
+                                    <img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" alt="Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất" height="100" width="100" layout="responsive" data-loaded="true">
+                                </a>
+                                <span class="images-number">11 ảnh</span>
+                            </figure>
+                            <div class="post-meta">
+                                <h3 class="post-title"><a style="color: #E13427;" href=""><span class="star star-5"></span> Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất </a></h3>
+                                <div class="meta-row flex-meta-row">
+                                    <span class="post-price">4.5 triệu/tháng</span>
+                                    <span class="post-acreage">25m²</span>
+                                    <span class="post-location">
+                                        <a href="" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                    </span>
+                                </div>
+                                <span class="mobile-post-location">
+                                    <a href="https://phongtro123.com/tinh-thanh/ho-chi-minh/quan-10" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                </span>
+                                <time class="post-time" title="Thứ 4, 08:33 14/02/2024">Hôm nay</time>
+                                <div class="meta-row ">
+                                    <p class="post-summary">Cho thuê phòng trọ ngay trung tâm Quận 10, gần ngay Vạn Hạnh Mall, trường đại học Bách Khoa, Huflit (5 phút đi bộ là tới), trường Đại học Y Dược Phạm…</p>
+                                </div>
+                                <div class="meta-row flex-meta-row">
+                                    <div class="post-author">
+                                        <img src="https://phongtro123.com/images/default-user.png">
+                                        <span class="author-name">Việt 275 (*)</span>
+                                    </div>
+                                    
+                                    <a rel="nofollow" target="_blank" href="tel:0938297275" class="btn-quick-call">Gọi 0938297275</a>
+                                    <a rel="nofollow" target="_blank" href="https://zalo.me/0938297275" class="btn-quick-zalo">Nhắn Zalo</a>
+                                </div>
+                                <div class="mobile-post-time">Cập nhật: Hôm nay</div>
+                            </div>
+                        </li>
+                        <li class="post-item" style="border-color: #E13427;" post-id="612116">
+                            <figure class="post-thumb">
+                                <a class="" href="">
+                                    <img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" alt="Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất" height="100" width="100" layout="responsive" data-loaded="true">
+                                </a>
+                                <span class="images-number">11 ảnh</span>
+                            </figure>
+                            <div class="post-meta">
+                                <h3 class="post-title"><a style="color: #E13427;" href=""><span class="star star-5"></span> Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất </a></h3>
+                                <div class="meta-row flex-meta-row">
+                                    <span class="post-price">4.5 triệu/tháng</span>
+                                    <span class="post-acreage">25m²</span>
+                                    <span class="post-location">
+                                        <a href="" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                    </span>
+                                </div>
+                                <span class="mobile-post-location">
+                                    <a href="https://phongtro123.com/tinh-thanh/ho-chi-minh/quan-10" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                </span>
+                                <time class="post-time" title="Thứ 4, 08:33 14/02/2024">Hôm nay</time>
+                                <div class="meta-row ">
+                                    <p class="post-summary">Cho thuê phòng trọ ngay trung tâm Quận 10, gần ngay Vạn Hạnh Mall, trường đại học Bách Khoa, Huflit (5 phút đi bộ là tới), trường Đại học Y Dược Phạm…</p>
+                                </div>
+                                <div class="meta-row flex-meta-row">
+                                    <div class="post-author">
+                                        <img src="https://phongtro123.com/images/default-user.png">
+                                        <span class="author-name">Việt 275 (*)</span>
+                                    </div>
+                                    
+                                    <a rel="nofollow" target="_blank" href="tel:0938297275" class="btn-quick-call">Gọi 0938297275</a>
+                                    <a rel="nofollow" target="_blank" href="https://zalo.me/0938297275" class="btn-quick-zalo">Nhắn Zalo</a>
+                                </div>
+                                <div class="mobile-post-time">Cập nhật: Hôm nay</div>
+                            </div>
+                        </li>
+                        <li class="post-item" style="border-color: #E13427;" post-id="612116">
+                            <figure class="post-thumb">
+                                <a class="" href="">
+                                    <img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" alt="Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất" height="100" width="100" layout="responsive" data-loaded="true">
+                                </a>
+                                <span class="images-number">11 ảnh</span>
+                            </figure>
+                            <div class="post-meta">
+                                <h3 class="post-title"><a style="color: #E13427;" href=""><span class="star star-5"></span> Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất </a></h3>
+                                <div class="meta-row flex-meta-row">
+                                    <span class="post-price">4.5 triệu/tháng</span>
+                                    <span class="post-acreage">25m²</span>
+                                    <span class="post-location">
+                                        <a href="" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                    </span>
+                                </div>
+                                <span class="mobile-post-location">
+                                    <a href="https://phongtro123.com/tinh-thanh/ho-chi-minh/quan-10" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                </span>
+                                <time class="post-time" title="Thứ 4, 08:33 14/02/2024">Hôm nay</time>
+                                <div class="meta-row ">
+                                    <p class="post-summary">Cho thuê phòng trọ ngay trung tâm Quận 10, gần ngay Vạn Hạnh Mall, trường đại học Bách Khoa, Huflit (5 phút đi bộ là tới), trường Đại học Y Dược Phạm…</p>
+                                </div>
+                                <div class="meta-row flex-meta-row">
+                                    <div class="post-author">
+                                        <img src="https://phongtro123.com/images/default-user.png">
+                                        <span class="author-name">Việt 275 (*)</span>
+                                    </div>
+                                    
+                                    <a rel="nofollow" target="_blank" href="tel:0938297275" class="btn-quick-call">Gọi 0938297275</a>
+                                    <a rel="nofollow" target="_blank" href="https://zalo.me/0938297275" class="btn-quick-zalo">Nhắn Zalo</a>
+                                </div>
+                                <div class="mobile-post-time">Cập nhật: Hôm nay</div>
+                            </div>
+                        </li>
+                        <li class="post-item" style="border-color: #E13427;" post-id="612116">
+                            <figure class="post-thumb">
+                                <a class="" href="">
+                                    <img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" alt="Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất" height="100" width="100" layout="responsive" data-loaded="true">
+                                </a>
+                                <span class="images-number">11 ảnh</span>
+                            </figure>
+                            <div class="post-meta">
+                                <h3 class="post-title"><a style="color: #E13427;" href=""><span class="star star-5"></span> Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất </a></h3>
+                                <div class="meta-row flex-meta-row">
+                                    <span class="post-price">4.5 triệu/tháng</span>
+                                    <span class="post-acreage">25m²</span>
+                                    <span class="post-location">
+                                        <a href="" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                    </span>
+                                </div>
+                                <span class="mobile-post-location">
+                                    <a href="https://phongtro123.com/tinh-thanh/ho-chi-minh/quan-10" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                </span>
+                                <time class="post-time" title="Thứ 4, 08:33 14/02/2024">Hôm nay</time>
+                                <div class="meta-row ">
+                                    <p class="post-summary">Cho thuê phòng trọ ngay trung tâm Quận 10, gần ngay Vạn Hạnh Mall, trường đại học Bách Khoa, Huflit (5 phút đi bộ là tới), trường Đại học Y Dược Phạm…</p>
+                                </div>
+                                <div class="meta-row flex-meta-row">
+                                    <div class="post-author">
+                                        <img src="https://phongtro123.com/images/default-user.png">
+                                        <span class="author-name">Việt 275 (*)</span>
+                                    </div>
+                                    
+                                    <a rel="nofollow" target="_blank" href="tel:0938297275" class="btn-quick-call">Gọi 0938297275</a>
+                                    <a rel="nofollow" target="_blank" href="https://zalo.me/0938297275" class="btn-quick-zalo">Nhắn Zalo</a>
+                                </div>
+                                <div class="mobile-post-time">Cập nhật: Hôm nay</div>
+                            </div>
+                        </li>
+                        <li class="post-item" style="border-color: #E13427;" post-id="612116">
+                            <figure class="post-thumb">
+                                <a class="" href="">
+                                    <img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" alt="Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất" height="100" width="100" layout="responsive" data-loaded="true">
+                                </a>
+                                <span class="images-number">11 ảnh</span>
+                            </figure>
+                            <div class="post-meta">
+                                <h3 class="post-title"><a style="color: #E13427;" href=""><span class="star star-5"></span> Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất </a></h3>
+                                <div class="meta-row flex-meta-row">
+                                    <span class="post-price">4.5 triệu/tháng</span>
+                                    <span class="post-acreage">25m²</span>
+                                    <span class="post-location">
+                                        <a href="" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                    </span>
+                                </div>
+                                <span class="mobile-post-location">
+                                    <a href="https://phongtro123.com/tinh-thanh/ho-chi-minh/quan-10" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                </span>
+                                <time class="post-time" title="Thứ 4, 08:33 14/02/2024">Hôm nay</time>
+                                <div class="meta-row ">
+                                    <p class="post-summary">Cho thuê phòng trọ ngay trung tâm Quận 10, gần ngay Vạn Hạnh Mall, trường đại học Bách Khoa, Huflit (5 phút đi bộ là tới), trường Đại học Y Dược Phạm…</p>
+                                </div>
+                                <div class="meta-row flex-meta-row">
+                                    <div class="post-author">
+                                        <img src="https://phongtro123.com/images/default-user.png">
+                                        <span class="author-name">Việt 275 (*)</span>
+                                    </div>
+                                    
+                                    <a rel="nofollow" target="_blank" href="tel:0938297275" class="btn-quick-call">Gọi 0938297275</a>
+                                    <a rel="nofollow" target="_blank" href="https://zalo.me/0938297275" class="btn-quick-zalo">Nhắn Zalo</a>
+                                </div>
+                                <div class="mobile-post-time">Cập nhật: Hôm nay</div>
+                            </div>
+                        </li>
+                        <li class="post-item" style="border-color: #E13427;" post-id="612116">
+                            <figure class="post-thumb">
+                                <a class="" href="">
+                                    <img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2023/01/27/z4064025740041-0c32a1d0197c20b63c64a57df8c64959_1674785592.jpg" alt="Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất" height="100" width="100" layout="responsive" data-loaded="true">
+                                </a>
+                                <span class="images-number">11 ảnh</span>
+                            </figure>
+                            <div class="post-meta">
+                                <h3 class="post-title"><a style="color: #E13427;" href=""><span class="star star-5"></span> Phòng trọ ngay Thành Thái, trung tâm Quận 10, đẹp, trang bị đầy đủ nội thất </a></h3>
+                                <div class="meta-row flex-meta-row">
+                                    <span class="post-price">4.5 triệu/tháng</span>
+                                    <span class="post-acreage">25m²</span>
+                                    <span class="post-location">
+                                        <a href="" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                    </span>
+                                </div>
+                                <span class="mobile-post-location">
+                                    <a href="https://phongtro123.com/tinh-thanh/ho-chi-minh/quan-10" title="Cho thuê phòng trọ Quận 10, Hồ Chí Minh">Quận 10, Hồ Chí Minh</a>
+                                </span>
+                                <time class="post-time" title="Thứ 4, 08:33 14/02/2024">Hôm nay</time>
+                                <div class="meta-row ">
+                                    <p class="post-summary">Cho thuê phòng trọ ngay trung tâm Quận 10, gần ngay Vạn Hạnh Mall, trường đại học Bách Khoa, Huflit (5 phút đi bộ là tới), trường Đại học Y Dược Phạm…</p>
+                                </div>
+                                <div class="meta-row flex-meta-row">
+                                    <div class="post-author">
+                                        <img src="https://phongtro123.com/images/default-user.png">
+                                        <span class="author-name">Việt 275 (*)</span>
+                                    </div>
+                                    
+                                    <a rel="nofollow" target="_blank" href="tel:0938297275" class="btn-quick-call">Gọi 0938297275</a>
+                                    <a rel="nofollow" target="_blank" href="https://zalo.me/0938297275" class="btn-quick-zalo">Nhắn Zalo</a>
+                                </div>
+                                <div class="mobile-post-time">Cập nhật: Hôm nay</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="cartegory-right-botton">
+                        <ul class="cartegory-right-botton-items">
+                            <li><a class="pagination" href="">«</a>
+                            </li>
+                            <li><a class="pagination active" href="">1</a>
+                            </li>
+                            <li><a class="pagination " href="">2</a>
+                            </li>
+                            <li><a class="pagination" href="">»</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!-- Phần aside để lọc yêu cầu người dùng  -->
+            <aside class="aside">
+                <section class="section-sublink">
+                    <div class="section-header"><span class="section-title">Danh mục cho thuê</span>
+                    </div>
+                    <ul class="list-links clearfix">
+                        <li>
+                            <h2><a href="/cho-thue-phong-tro" title="Cho thuê phòng trọ">Cho thuê phòng trọ</a></h2><span class="count">(69.581)</span>
+                        </li>
+                        <li>
+                            <h2><a href="/nha-cho-thue" title="Cho thuê nhà nguyên căn">Cho thuê nhà nguyên căn</a></h2><span class="count">(11.368)</span>
+                        </li>
+                        <li>
+                            <h2><a href="/cho-thue-can-ho" title="Cho thuê căn hộ">Cho thuê căn hộ</a></h2><span class="count">(13.179)</span>
+                        </li>
+                        <li class="sub">
+                            <h2><a href="/cho-thue-can-ho-chung-cu-mini" title="Cho Thuê Căn Hộ Chung Cư Mini">Cho thuê căn hộ mini</a></h2>
+                        </li>
+                        <li class="sub">
+                            <h2><a href="/cho-thue-can-ho-dich-vu" title="Cho Thuê Căn Hộ Dịch Vụ">Cho thuê căn hộ dịch vụ</a></h2>
+                        </li>
+                        <li>
+                            <h2><a href="/cho-thue-mat-bang" title="Cho thuê mặt bằng">Cho thuê mặt bằng</a></h2><span class="count">(2.999)</span>
+                        </li>
+                        <li>
+                            <h2><a href="/tim-nguoi-o-ghep" title="Tìm người ở ghép">Tìm người ở ghép</a></h2><span class="count">(15.675)</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="section section-sublink">
+                  <div class="section-header"><span class="section-title">Xem theo giá</span>
+                  </div>
+                  <ul class="list-links price clearfix">
+                      <li><a href="https://phongtro123.com?gia_den=1000000">Dưới 1 triệu</a>
+                      </li>
+                      <li><a href="https://phongtro123.com?gia_tu=1000000&amp;gia_den=2000000">Từ 1 - 2 triệu</a>
+                      </li>
+                      <li><a href="https://phongtro123.com?gia_tu=2000000&amp;gia_den=3000000">Từ 2 - 3 triệu</a>
+                      </li>
+                      <li><a href="https://phongtro123.com?gia_tu=3000000&amp;gia_den=5000000">Từ 3 - 5 triệu</a>
+                      </li>
+                      <li><a href="https://phongtro123.com?gia_tu=5000000&amp;gia_den=7000000">Từ 5 - 7 triệu</a>
+                      </li>
+                      <li><a href="https://phongtro123.com?gia_tu=7000000&amp;gia_den=10000000">Từ 7 - 10 triệu</a>
+                      </li>
+                      <li><a href="https://phongtro123.com?gia_tu=10000000&amp;gia_den=15000000">Từ 10 - 15 triệu</a>
+                      </li>
+                      <li><a href="https://phongtro123.com?gia_tu=15000000">Trên 15 triệu</a>
+                      </li>
+                  </ul>
+                </section>
+
+                <section class="section section-sublink">
+                  <div class="section-header"><span class="section-title">Xem theo diện tích</span>
+                  </div>
+                  <ul class="list-links acreage clearfix">
+                      <li><a href="https://phongtro123.com?dien_tich_den=20">Dưới 20 m<sup>2</sup></a>
+                      </li>
+                      <li><a href="https://phongtro123.com?dien_tich_tu=20&amp;dien_tich_den=30">Từ 20 - 30m<sup>2</sup></a>
+                      </li>
+                      <li><a href="https://phongtro123.com?dien_tich_tu=30&amp;dien_tich_den=50">Từ 30 - 50m<sup>2</sup></a>
+                      </li>
+                      <li><a href="https://phongtro123.com?dien_tich_tu=50&amp;dien_tich_den=70">Từ 50 - 70m<sup>2</sup></a>
+                      </li>
+                      <li><a href="https://phongtro123.com?dien_tich_tu=70&amp;dien_tich_den=90">Từ 70 - 90m<sup>2</sup></a>
+                      </li>
+                      <li><a href="https://phongtro123.com?dien_tich_tu=90">Trên 90m<sup>2</sup></a>
+                      </li>
+                  </ul>
+                </section>
+
+                <section class="section section-aside-tinmoidang">
+                  <div class="section-header"><span class="section-title">Tin mới đăng</span>
+                  </div>
+                  <ul class="post-listing aside clearfix">
+                      <li class="post-item clearfix normal" post-id="646643">
+                          <a href="/ky-tuc-xa-gia-re-phu-nhuan-hot-hot-2-pr646643.html">
+                              <figure><img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" alt="KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT" height="100" width="100" layout="responsive" data-loaded="true">
+                              </figure>
+                              <div class="post-meta"><span class="post-title" style="color: #055699; margin-bottom: 0;"> KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT </span><span class="post-price">1.9 triệu/tháng</span>
+                                  <time class="post-time" title="Thứ 5, 18:02 15/02/2024">1 giờ trước</time>
+                              </div>
+                          </a>
+                      </li>
+
+                      <li class="post-item clearfix normal" post-id="646643">
+                        <a href="/ky-tuc-xa-gia-re-phu-nhuan-hot-hot-2-pr646643.html">
+                            <figure><img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" alt="KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT" height="100" width="100" layout="responsive" data-loaded="true">
+                            </figure>
+                            <div class="post-meta"><span class="post-title" style="color: #055699; margin-bottom: 0;"> KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT </span><span class="post-price">1.9 triệu/tháng</span>
+                                <time class="post-time" title="Thứ 5, 18:02 15/02/2024">1 giờ trước</time>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="post-item clearfix normal" post-id="646643">
+                      <a href="/ky-tuc-xa-gia-re-phu-nhuan-hot-hot-2-pr646643.html">
+                          <figure><img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" alt="KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT" height="100" width="100" layout="responsive" data-loaded="true">
+                          </figure>
+                          <div class="post-meta"><span class="post-title" style="color: #055699; margin-bottom: 0;"> KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT </span><span class="post-price">1.9 triệu/tháng</span>
+                              <time class="post-time" title="Thứ 5, 18:02 15/02/2024">1 giờ trước</time>
+                          </div>
+                      </a>
+                  </li>
+                  <li class="post-item clearfix normal" post-id="646643">
+                    <a href="/ky-tuc-xa-gia-re-phu-nhuan-hot-hot-2-pr646643.html">
+                        <figure><img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" alt="KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT" height="100" width="100" layout="responsive" data-loaded="true">
+                        </figure>
+                        <div class="post-meta"><span class="post-title" style="color: #055699; margin-bottom: 0;"> KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT </span><span class="post-price">1.9 triệu/tháng</span>
+                            <time class="post-time" title="Thứ 5, 18:02 15/02/2024">1 giờ trước</time>
+                        </div>
+                    </a>
+                </li>
+                <li class="post-item clearfix normal" post-id="646643">
+                    <a href="/ky-tuc-xa-gia-re-phu-nhuan-hot-hot-2-pr646643.html">
+                        <figure><img class="lazy_done" src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" data-src="https://pt123.cdn.static123.com/images/thumbs/450x300/fit/2024/02/15/z4791904780909-a8608499eb5f139983c76943e024d9bc_1707994893.jpg" alt="KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT" height="100" width="100" layout="responsive" data-loaded="true">
+                        </figure>
+                        <div class="post-meta"><span class="post-title" style="color: #055699; margin-bottom: 0;"> KÝ TÚC XÁ GIÁ RẺ PHÚ NHUẬN HOT HOT </span><span class="post-price">1.9 triệu/tháng</span>
+                            <time class="post-time" title="Thứ 5, 18:02 15/02/2024">1 giờ trước</time>
+                        </div>
+                    </a>
+                </li>
+                  </ul>
+                </section>
+            </aside>
+        </div>
+
+        <!-- Phần liên hệ với chúng tôi  -->
+        <section class="testimonial section-inner">
+            <div class="container">
+                <div class="title">
+                    <h2>Liên hệ với chúng tôi</h2>
+                </div>
+                <div class="testimonial-content">
+                    <!-- Swiper -->
+                    <div class="testimonial-content">
+                        <!-- Swiper -->
+                        <div class="swiper-container testimonial-thumbs">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="testimonial-pic">
+                                <img src="./img/support.png" alt="">
+                                <div class="shape-bx"></div>
+                              </div>
+                      
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="testimonial-pic">
+                                <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic2.jpg" alt="">
+                                <div class="shape-bx"></div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="testimonial-pic">
+                                <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic3.jpg" alt="">
+                                <div class="shape-bx"></div>
+                              </div>
+                            </div>
+                          </div>
+                      
+                        </div>
+                      
+                        <div class="swiper-container testimonial-comment">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="testimonial-text">
+                                <i class="flaticon-quotation"></i>
+                                <strong class="testimonial-name">Nguyễn Hoàng Thiên Bảo</strong> <br>
+                                <span class="testimonial-position text-primary m-b20">Hổ trợ đăng tin</span>
+                                <p>Điện thoại: 0382187103</p>
+                                <p>Zalo: 0382187103</p>
+                              </div>
+                      
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="testimonial-text">
+                                <i class="flaticon-quotation"></i>
+                                <strong class="testimonial-name">Cak Dikin 2</strong> <br>
+                                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
+                                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                              </div>
+                      
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="testimonial-text">
+                                <i class="flaticon-quotation"></i>
+                                <strong class="testimonial-name">Cak Dikin 3</strong> <br>
+                                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
+                                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis erat.</p>
+                              </div>
+                      
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+                      </div>
+                </div>   
+            </div>
+        </section>
+
+
+        <!-- Phần responsive cho menu header  -->
+        <div class="menu-mobile">
+            <ul class="mobile_header_list">
+                <div class="mobile-exit"><i class="fa-solid fa-xmark"></i>
+                </div>
+                <li>
+                    <p>TRANG CHỦ</p>
+                </li>
+                <li class="mobile-menu-item">
+                    <p>DỊCH VỤ <i class="fa-solid fa-chevron-down"></i>
+                    </p>
+                    <ul class="mobile_sub_menu">
+                        <div class="mobile_list_submenu">
+                            <div class="mobile_item_list_submenu">
+                                <a href="">Cho thuê phòng trọ</a>
+                            </div>
+                            <div class="mobile_item_list_submenu">
+                                <a href="">Nhà cho thuê</a>
+                            </div>
+                            <div class="mobile_item_list_submenu">
+                                <a href="">Cho thuê căn hộ</a>
+                            </div>
+                            <div class="mobile_item_list_submenu">
+                                <a href="">Tìm người ở ghép</a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <p>TIN TỨC</p>
+                </li>
+                <li>
+                    <p>BẢNG GIÁ DỊCH VỤ</p>
+                </li>
+            </ul>
+        </div>
+        <div class="login-mobile">
+            <ul class="mobile_header_login">
+                <div class="mobile-exit2"><i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="user-control js-reload-html-header"><div class="user_info">
+                    <p style="margin-top: 0;">Chào mừng bạn đến với <strong>Phongtro123.com</strong></p>
+                    <a rel="nofollow" class="btn-login" href="./dangnhap.html">Đăng nhập</a>
+                    <a rel="nofollow" class="btn-register" href="./dangki.html">Đăng ký</a>
+                </div>
+                </div>
+                <div class="chat-icon"></div>
+                <div class="list-support">
+                    <div class="item"><span class="item-title">Hỗ trợ đăng tin</span><a class="clearfix" target="_blank" rel="nofollow" href="tel:0902657123"><i class="phone"></i> 0902.657.123</a><a class="clearfix" target="_blank" rel="nofollow" href="https://zalo.me/0902657123"><i class="zalo"></i> 0902.657.123</a>
+                    </div>
+                    <div class="item"><span class="item-title">Hỗ trợ đăng tin</span><a class="clearfix" target="_blank" rel="nofollow" href="tel:0901424123"><i class="phone"></i> 0901.424.123</a><a class="clearfix" target="_blank" rel="nofollow" href="https://zalo.me/0901424123"><i class="zalo"></i> 0901.424.123</a>
+                    </div>
+                    <div class="item"><span class="item-title">Hỗ trợ đăng tin</span><a class="clearfix" target="_blank" rel="nofollow" href="tel:0903007123"><i class="phone"></i> 0903.007.123</a><a class="clearfix" target="_blank" rel="nofollow" href="https://zalo.me/0903007123"><i class="zalo"></i> 0903.007.123</a>
+                    </div>
+                    <div class="item"><span class="item-title">Phản ánh/khiếu nại</span><a class="clearfix" target="_blank" rel="nofollow" href="tel:0917686101"><i class="phone"></i> 0917.686.101</a><a class="clearfix" target="_blank" rel="nofollow" href="https://zalo.me/0917686101"><i class="zalo"></i> 0917.686.101</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div style="height: 1000px;"></div>
+    </div>
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+
+    <!-- swiper js  -->
+    <script src="https://samar.dexignzone.com/xhtml/vendor/swiper/js/swiper.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
